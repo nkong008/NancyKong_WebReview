@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*this is css reset*/
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+/* added a background color to the body element*/
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(160, 146, 146);
+}
+
+header {
+  height: 10vh;
+  background-color: rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+main {
+  height: 80vh;
+  background-color: rgb(190, 214, 221);
+}
+
+footer {
+  height: 80vh;
+  background-color: rgb(129, 129, 129);
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+header {
+  display: flex;
+}
+span {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2em;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding: 0 8px;
+  color: white;
+  text-transform: uppercase;
+}
+ul li a:hover {
+  color: rgb(255, 255, 0);
+}
+nav {
+  margin-left: auto;
+}
