@@ -24,9 +24,12 @@ header {
   padding: 0 20px;
 }
 
-main {
+.main {
   height: 80vh;
   background-color: rgb(190, 214, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -58,4 +61,34 @@ ul li a:hover {
 }
 nav {
   margin-left: auto;
+}
+
+#table-data {
+  color: rgb(255, 255, 255);
+  /*background-color: rgb(153, 153, 153);*/
+/*padding: 1em;*/
+font-family: "Montserrat", sans-serif;
+}
+#table-data tr td {
+ padding: 0.5em 2em;
+  font-size: 1.5em;
+}
+#table-data tr th {
+  padding: 0.5em 2em;
+  font-size: 1.5em;
+  text-align: left;
+  background-color: rgb(51, 68, 63);
+}
+.green-row {
+background-color: rgb(119, 155, 137);
+}
+.blue-row{
+  background-color: rgb(154, 187, 207);
+}
+table, th, td {
+  border: 0.125em solid white;
+  border-collapse: collapse;
+}
+tr {
+  padding: 0.5em 2em;
 }
